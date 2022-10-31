@@ -4,9 +4,10 @@ on:
      branches: [ main ]
 jobs:
   build:
-   runs-on:
+
+     runs-on: ubuntu_latest
    
-   steps:
+  steps:
    
    - uses: actions/checkout@v2
    - uses: actions/cache@v3.0.11
