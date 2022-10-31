@@ -24,4 +24,4 @@ jobs:
        run:  npm install -g surge
        
      - name: Deploy website on surge
-       run:  surge ./ magical-word.surge.sh/ --token ${{secrets.gul}}
+       run:  surge ./ magical-word.surge.sh/ --token ${{secrets.GUL}}
